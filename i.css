@@ -1,0 +1,22 @@
+body
+{
+    background-image: url("./images1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main{
+    background-color: rgb(35, 98, 161);
+    color: aliceblue;
+    font-family: 'Roboto';
+    
+
+}
+.icon{
+    display: inline-block;
+    transition:width .5s,
+    height .5s;
+}
+.icon:hover{
+    width:60px;
+    height:60px;
+}
